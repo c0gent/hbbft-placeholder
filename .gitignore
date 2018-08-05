@@ -1,3 +1,4 @@
+src/proto/message.rs
 /target
 **/*.rs.bk
 Cargo.lock
