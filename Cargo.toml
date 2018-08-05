@@ -1,0 +1,49 @@
+[package]
+name = "hbbft"
+version = "0.0.0"
+authors = ["Vladimir Komendantskiy <komendantsky@gmail.com>",
+           "Andreas Fackler <AndreasFackler@gmx.de>",
+           "Peter van Nostrand <jnz@riseup.net>",
+           "Andrew Gross <andogro@gmail.com>",
+           "Nick Sanders <nsan1129@gmail.com>"]
+description = "Honey Badger Byzantine fault tolerant consensus algorithm"
+license = "LGPL-3.0"
+repository = "https://github.com/poanetwork/hbbft"
+readme = "https://github.com/poanetwork/hbbft/blob/master/README.md"
+keywords = ["consensus", "asynchronous", "threshold"]
+categories = ["algorithms", "asynchronous", "cryptography", "network-programming"]
+
+[badges]
+travis-ci = { repository = "poanetwork/hbbft" }
+
+# [dependencies]
+# bincode = "1.0.0"
+# byteorder = "1.2.3"
+# env_logger = "0.5.10"
+# failure = "0.1"
+# init_with = "1.1.0"
+# itertools = "0.7"
+# log = "0.4.1"
+# merkle = { git = "https://github.com/afck/merkle.rs", branch = "public-proof", features = [ "serialization-serde" ] }
+# pairing = { version = "0.14.2", features = ["u128-support"] }
+# rand = "0.4.2"
+# rand_derive = "0.3.1"
+# reed-solomon-erasure = "3.1.0"
+# ring = "^0.12"
+# serde = "1.0.55"
+# serde_derive = "1.0.55"
+# threshold_crypto = { git = "https://github.com/poanetwork/threshold_crypto" }
+
+# [dev-dependencies]
+# colored = "1.6"
+# crossbeam = "0.3.2"
+# crossbeam-channel = "0.1"
+# docopt = "0.8"
+# serde_derive = "1.0.55"
+# signifix = "0.9"
+
+# [[example]]
+# name = "consensus-node"
+
+# [[example]]
+# name = "simulation"
